@@ -1,0 +1,25 @@
+{
+    "relatorios": [
+      {
+        "tipo": "vendas_por_periodo",
+        "agrupamento": "InvoiceDate",
+        "coluna": "Quantity",
+        "ordem": "decrescente",
+        "arquivo_saida": "vendas_por_periodo.csv"
+      },
+      {
+        "tipo": "produtos_mais_vendidos",
+        "agrupamento": "Description",
+        "coluna": "Quantity",
+        "ordem": "decrescente",
+        "arquivo_saida": "produtos_mais_vendidos.csv"
+      },
+      {
+        "tipo": "vendas_por_pais",
+        "agrupamento": "Country",
+        "coluna": "Quantity",
+        "ordem": "decrescente",
+        "arquivo_saida": "vendas_por_pais.csv"
+      }
+    ]
+  }
